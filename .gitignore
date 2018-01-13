@@ -1,3 +1,5 @@
+docs/assets/*.map
+
 # Logs
 logs
 *.log
