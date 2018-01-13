@@ -8,7 +8,8 @@ module.exports = (options, req) => ({
     html: {
         chunk: 'index',
         filename: 'index.html',
-        template: './src/index.html'
+        template: './src/index.html',
+        inject: false
     },
     filename: {
         js: 'assets/[name].js',
